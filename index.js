@@ -13,7 +13,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/test',(req,res)=>{
-    res.send("Hello heroku test apiheroku-ar");
+    res.send("heroku test apiheroku-ar");
 });
 
 app.listen(port,()=>{
